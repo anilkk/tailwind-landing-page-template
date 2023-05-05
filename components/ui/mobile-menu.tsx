@@ -50,7 +50,7 @@ export default function MobileMenu() {
       </button>
 
       {/*Mobile navigation */}
-      <div ref={mobileNav}>
+      {/* <div ref={mobileNav}>
         <Transition
           show={mobileNavOpen}
           as="nav"
@@ -77,7 +77,7 @@ export default function MobileMenu() {
             </li>
           </ul>          
         </Transition>
-      </div>
+      </div> */}
     </div>
   )
 }
